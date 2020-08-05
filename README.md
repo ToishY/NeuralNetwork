@@ -41,8 +41,8 @@ The following inputs are required from the user:
 * `y_feature` **[str]** : The header name for the y feature (plotting purposes).
 * `bin_to_multi` **[bool]** : Specify if binary target column should be converted to multiclass; If `False`, 1 output neuron will be present; If `True`, 2 output neurons will be present.
 * `method` **[dict]** : Specify to do Train/Test split or to use Cross-Validation (CV); If train/test, supply `{'split':0.2}`; If CV, supply `{'k_fold':{'folds':3}}`, `{'k_fold_strat':{'folds':3}}` or `{'loo':{}}`.
-* `model` **[str]** : Specify if user wants to use an existing model; Specify the `JSON` file to be used or supply `None` if the user wants to use current model settings.
-* `scaler` **[str]** : Specify if user wants to use an existing scaler; Specify the `SAV` file to be used or supply `None` if the user wants to use current scaler settings.
+* `model` **[str]** : Specify if user wants to use an existing model; Specify the `JSON` file to be used or supply `None` if the user wants to use current model settings. E.g. `'NN_22-10-2020_14-21-06/model.json'`.
+* `scaler` **[str]** : Specify if user wants to use an existing scaler; Specify the `SAV` file to be used or supply `None` if the user wants to use current scaler settings. E.g. `'NN_22-10-2020_14-21-06/robust.sav'`.
 * `user_scaler` **[str]** : Specify the scaler the user wants to use; Valid options are: `"standard"`, `"minmax"`, `"maxabs"`, `"robust"`.
 * `user_layers` **[list]** : Specify a list with the amount of neurons per layer / list entry. E.g. : `[8,13,14]`.
 * `user_activations` **[list]** : Specify a list with activation functions to use in between layers. E.g. : `['relu','prelu','isru','sigmoid']`.
