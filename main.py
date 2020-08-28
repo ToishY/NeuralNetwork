@@ -3,7 +3,7 @@
 Created on Mon Apr 20 13:06:52 2020
 Modified on Sun May 10 12:28:00 2020
 
-@author: ToishY
+@author: ToshY
 
 This is an original work derived from previous work and a wide range of snippets,
 with the purpose of creating a versatile Multilayer Perceptron.
