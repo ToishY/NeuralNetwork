@@ -2,7 +2,7 @@
 """
 Created on Tue Apr 21 22:33:43 2020
 
-@author: ToishY
+@author: ToshY
 """
 
 from sklearn.model_selection import KFold, StratifiedKFold, LeaveOneOut
